@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cubes</title>
+        <style>
+            html,
+            body {
+                margin: 0;
+                background-color: #000;
+            }
+
+            html {
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                height: 100%;
+            }
+
+            body {
+                overflow: hidden;
+                height: inherit;
+            }
+
+            h1 {
+                font-size: 2rem;
+                letter-spacing: -1px;
+                position: absolute;
+                margin: 0;
+                top: 40px;
+                right: 50px;
+                color: #fff;
+            }
+            canvas {
+                display: block;
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <!--<h1>Les cubes</h1>-->
+        <canvas id="main" width="1080" height="1080"></canvas>
+        <script src="./cubes.js"></script>
+    </body>
+</html>
