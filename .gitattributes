@@ -1,4 +1,1 @@
-data filter=lfs diff=lfs merge=lfs -text
-*.jpg filter=lfs diff=lfs merge=lfs -text
-*.lz4 filter=lfs diff=lfs merge=lfs -text
 data.lz4 filter=lfs diff=lfs merge=lfs -text
