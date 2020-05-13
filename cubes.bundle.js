@@ -91,8 +91,8 @@ function random(min, max) {
 function loadData() {
     console.log("Téléchargement de l'archive…");
     return new Promise((resolve, reject) => {
-        const xhr = new XMLHttpRequest("./data.lz4");
-        xhr.open("GET", "./data.lz4", true); // url is the url of a PNG/JPG image.
+        const xhr = new XMLHttpRequest("data.lz4");
+        xhr.open("GET", "data.lz4", true); // url is the url of a PNG/JPG image.
         xhr.responseType = "arraybuffer";
         xhr.callback = resolve;
         xhr.onload = function () {
